@@ -1,14 +1,14 @@
 # Exercise, Hormone Therapy, and Verbal Memory: A Simulation and Power Analysis of a Proposed RAVLT Study
 
-This project simulates data for a research proposal I wrote for PSY 10A (Research Methods) at UC Santa Barbara, then runs the planned analysis and a power analysis in Python to test whether the proposed study could detect its hypothesized effects.
+This project simulates data for a research proposal I developed for PSY 10A (Research Methods) at UC Santa Barbara. It then runs an analysis in Python to test whether the proposed study could detect its hypothesized effects.
 
-> Simulated data only -- no real participants.
+> NOTE-- this analysis uses simulated data 
 
 ---
 
 ## Background
 
-Postmenopausal women with breast cancer are often treated with adjuvant endocrine therapy such as tamoxifen or exemestane. Tamoxifen has been linked to lower verbal memory, while exemestane has not (Schilder et al., 2010). Aerobic exercise improves episodic memory in older adults (Aghjayan et al., 2022). My proposal asks whether a walking program could offset the memory effects of hormone therapy, and whether it helps more for women on tamoxifen.
+Hormone therapies-- such as tamoxifen or exemestane-- are prescribed to Postmenopausal women with breast cancer. Previous studies such as Schilder et al. (2010) proposed that tamoxifen has been linked to lower verbal memory, while exemestane has not. Additionally, aerobic exercise improves episodic memory in older adults (Aghjayan et al., 2022). My proposal asks whether a walking program could offset the memory effects of hormone therapy, and whether it helps more for women on tamoxifen.
 
 ## Hypotheses
 
@@ -70,18 +70,18 @@ In the simulated data, H1 and H2 were supported. The interaction went in the pre
 
 ## Key takeaway
 
-With the proposed sample of 160, the study would have only about 16% power to detect the hypothesized interaction, my main hypothesis. Detecting it would take roughly 1,250 participants. This is consistent with interactions generally needing much larger samples than main effects. Possible changes to the design: a multi-site study, a longer follow-up (Schilder et al. measured after 1 year, when the tamoxifen deficit may be larger), or treating H3 as exploratory.
+The study would only have about 16% power to detect my main hypothesis of the interaction with the proposed sample of 160. Detecting it would take roughly 1,250 participants. This is consistent with interactions generally needing much larger samples than main effects. Possible changes to the design: a multi-site study, a longer follow-up (Schilder et al. measured after 1 year, when the tamoxifen deficit may be larger), or treating H3 as exploratory.
 
 ## Limitations
 
-- All data are simulated, so the results only reflect the assumptions I put in.
-- The tamoxifen deficit comes from 1-year data (Schilder et al., 2010); after only 12 weeks the real deficit may be smaller.
+- The results reflect the assumptions I put in, as all the data is simulated.
+- The tamoxifen deficit comes from 1-year data (Schilder et al., 2010); after only 12 weeks, which my proposed study will follow, the real deficit may be smaller.
 - Schilder et al. (2010) report the tamoxifen deficit vs. healthy controls; the abstract does not give a direct tamoxifen vs. exemestane effect size for verbal memory.
 - The size of the interaction is my own assumption, since no published study has tested it.
 
 ## How to run
 
-Open `ravlt_simulation.ipynb` in Google Colab and click Runtime -> Run all. Packages used: numpy, pandas, statsmodels, scipy, matplotlib (all preinstalled in Colab). The random seed is fixed, so results are the same every run.
+Open `ravlt_simulation.ipynb` in Google Colab and run all. Packages used: numpy, pandas, statsmodels, scipy, matplotlib (all preinstalled in Colab). The random seed is fixed, so results are the same every run.
 
 ## References
 

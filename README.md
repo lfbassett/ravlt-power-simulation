@@ -8,7 +8,7 @@ This project simulates data for a research proposal I developed for PSY 10A (Res
 
 ## Background
 
-Hormone therapies-- such as tamoxifen or exemestane-- are prescribed to Postmenopausal women with breast cancer. Previous studies such as Schilder et al. (2010) proposed that tamoxifen has been linked to lower verbal memory, while exemestane has not. Additionally, aerobic exercise improves episodic memory in older adults (Aghjayan et al., 2022). My proposal asks whether a walking program could offset the memory effects of hormone therapy, and whether it helps more for women on tamoxifen.
+Hormone therapies, such as tamoxifen or exemestane, are prescribed to postmenopausal women with breast cancer. Previous studies such as Schilder et al. (2010) proposed that tamoxifen has been linked to lower verbal memory, while exemestane has not. Additionally, aerobic exercise improves episodic memory in older adults (Aghjayan et al., 2022). My proposal asks whether a walking program could offset the memory effects of hormone therapy, and whether it helps more for women on tamoxifen.
 
 ## Hypotheses
 
@@ -81,7 +81,7 @@ The study would only have about 16% power to detect my main hypothesis of the in
 
 ## How to run
 
-Open `ravlt_simulation.ipynb` in Google Colab and run all. Packages used: numpy, pandas, statsmodels, scipy, matplotlib (all preinstalled in Colab). The random seed is fixed, so results are the same every run.
+Open `RAVLT_simulation.ipynb` in Google Colab and run all. Packages used: numpy, pandas, statsmodels, scipy, matplotlib (all preinstalled in Colab). The random seed is fixed, so results are the same every run.
 
 ## References
 
